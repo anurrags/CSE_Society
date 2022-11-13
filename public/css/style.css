@@ -1,0 +1,82 @@
+/* **************NAVBAR******************** */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700;800;900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #16213e;
+  color: #fff;
+}
+a,
+a:hover,
+:active,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+nav {
+  display: flex;
+  color: #fff;
+
+  background-color: #000;
+  justify-content: space-between;
+}
+nav .logo {
+  padding-top: 8px;
+  font-size: 2rem;
+  font-family: "Roboto Slab";
+  font-weight: 900;
+  margin-left: 2rem;
+}
+nav ul {
+  padding-top: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  margin-right: 3rem;
+}
+nav ul li {
+  margin-left: 3rem;
+}
+nav ul li:hover {
+  color: rgb(191, 255, 16);
+}
+/* ********************************** */
+
+.container {
+  margin: 2rem 2rem 0 2rem;
+}
+.card {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  /* align-items: center; */
+  background-color: #0f3460;
+  padding: 1rem;
+}
+.card img {
+  width: 10rem;
+  height: 10rem;
+}
+.card .content .event-name {
+  color: #a91079;
+  font-weight: 700;
+}
+.card .content .event-details {
+  color: #ffffff;
+}
+.card .content .event-link {
+  color: #f806cc;
+  text-decoration: underline;
+}
+.card .content .event-link:hover {
+  text-decoration: none;
+  letter-spacing: 1px;
+}
